@@ -1,0 +1,5 @@
+supabase/.branches/*
+supabase/.temp/*
+
+.vscode/*
+
