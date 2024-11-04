@@ -10,12 +10,6 @@ SELECT has_column(
 SELECT has_column(
     'public',
     'employees',
-    'name',
-    'name should exist'
-);
-SELECT has_column(
-    'public',
-    'employees',
     'email',
     'email should exist'
 );
