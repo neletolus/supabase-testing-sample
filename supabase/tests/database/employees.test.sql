@@ -1,11 +1,17 @@
 begin;
-select plan(5);
+select plan(6);
 
 SELECT has_column(
     'public',
     'employees',
     'id',
     'id should exist'
+);
+SELECT has_column(
+    'public',
+    'employees',
+    'name',
+    'name should exist'
 );
 SELECT has_column(
     'public',
